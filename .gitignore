@@ -20,3 +20,6 @@ archive/
 
 # Git PAT Token
 git_repo_pat_token.txt
+
+# Gemini Recommendations
+Gemini_Publication_Recommendations.txt

@@ -1,0 +1,11 @@
+# Core numerical & data I/O
+numpy==2.4.6
+h5py==3.16.0
+
+# Deep learning & GPU spectral computing
+torch==2.15.0
+cupy-cuda12x==14.1.1
+
+# Visualization & 3D post-processing
+matplotlib==3.11.0
+pyvista==0.48.4

@@ -1,0 +1,19 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large HDF5 datasets (exceed GitHub 100MB limit)
+data/*.h5
+
+# Large PyTorch checkpoints & weights (~700MB - 2.1GB each)
+checkpoints/*.pth
+
+# Legacy debugging runs
+archive/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp

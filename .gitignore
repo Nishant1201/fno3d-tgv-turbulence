@@ -17,3 +17,6 @@ archive/
 .vscode/
 .idea/
 *.swp
+
+# Git PAT Token
+git_repo_pat_token.txt

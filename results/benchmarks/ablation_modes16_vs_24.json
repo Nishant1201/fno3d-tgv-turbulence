@@ -1,0 +1,18 @@
+[
+  {
+    "config": "modes=16, width=20 (50% Nyquist)",
+    "u_rel_l2_pct": 8.828,
+    "ke_rel_l2_pct": 0.581,
+    "enst_rel_l2_pct": 1.956,
+    "ke_final_err_pct": 3.345,
+    "enst_peak_err_pct": 2.559
+  },
+  {
+    "config": "modes=24, width=20 (75% Nyquist)",
+    "u_rel_l2_pct": 4.716,
+    "ke_rel_l2_pct": 0.089,
+    "enst_rel_l2_pct": 1.623,
+    "ke_final_err_pct": 0.106,
+    "enst_peak_err_pct": 2.369
+  }
+]

@@ -247,9 +247,14 @@ def main():
         )
 
         # Reference Kolmogorov k^(-5/3) slope
+        #k_ref = np.array([3.0, 15.0])
+        #e_ref = Ek_fdns[2] * (k_ref / 3.0) ** (-5.0 / 3.0) * 1.8
+        #ax.loglog(k_ref, e_ref, "g:", lw=1.4, label=r"$k^{-5/3}$ Reference")
+        
+        # Reference Kolmogorov k^(-5/3) slope (distinct dash-dot vs. dotted cutoff)
         k_ref = np.array([3.0, 15.0])
         e_ref = Ek_fdns[2] * (k_ref / 3.0) ** (-5.0 / 3.0) * 1.8
-        ax.loglog(k_ref, e_ref, "g:", lw=1.4, label=r"$k^{-5/3}$ Reference")
+        ax.loglog(k_ref, e_ref, color="tab:green", linestyle="-.", lw=1.4, label=r"$k^{-5/3}$ Reference")
 
         ax.axvline(x=MODES, color="gray", linestyle=":", lw=1.4, label=rf"$k_{{\mathrm{{modes}}}} = {MODES}$")
         ax.set_title(f"Energy Spectrum at $t = {t_val:.1f}$ s")

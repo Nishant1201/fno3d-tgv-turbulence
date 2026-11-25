@@ -1,0 +1,13 @@
+Benchmarking Case 1: Filtered DNS (256^3 -> 64^3, 1 trajectory)...
+Benchmarking Case 2: 3D FNO Surrogate (64^3, modes=24, width=20)...
+Benchmarking Case 3: Native Pseudo-Spectral Solver (64^3)...
+
+| Case | Wall Time (s) | ms / Snapshot | Speedup vs. $256^3$ DNS | Peak Mem (MB) | Rel. $L_2$ $\mathbf{u}$ (%) | Rel. $L_2$ $E_k$ (%) | Rel. $L_2$ $\mathcal{E}$ (%) | $E_k(T)$ Err (%) | $\mathcal{E}_{\max}$ Err (%) |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Filtered DNS (256^3 -> 64^3) | 569.252 | 5692.52 | 1.0x | 5416.1 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |
+| 3D FNO Surrogate (64^3) | 1.834 | 18.34 | 310.4x | 1350.0 | 4.716 | 0.089 | 1.623 | 0.106 | 2.369 |
+| Native Solver (64^3) | 6.359 | 63.59 | 89.5x | 74.9 | 33.528 | 1.013 | 43.942 | 4.734 | 45.384 |
+
+Saved Figure   -> /home/nishant/Workspace/pseudo_spectral_dns/fno_pipeline/results/figures/fig4_native64_vs_fno_fdns.png
+Saved JSON     -> /home/nishant/Workspace/pseudo_spectral_dns/fno_pipeline/results/benchmarks/benchmark_summary.json
+Saved Markdown -> /home/nishant/Workspace/pseudo_spectral_dns/fno_pipeline/results/benchmarks/benchmark_summary.md

@@ -1,0 +1,38 @@
+[
+  {
+    "case": "Filtered DNS (256^3 -> 64^3)",
+    "wall_time_s": 569.252,
+    "ms_per_snap": 5692.52,
+    "speedup_vs_256_dns": 1.0,
+    "peak_mem_mb": 5416.1,
+    "u_rel_l2_pct": 0.0,
+    "ke_rel_l2_pct": 0.0,
+    "enst_rel_l2_pct": 0.0,
+    "ke_final_err_pct": 0.0,
+    "enst_peak_err_pct": 0.0
+  },
+  {
+    "case": "3D FNO Surrogate (64^3)",
+    "wall_time_s": 1.834,
+    "ms_per_snap": 18.34,
+    "speedup_vs_256_dns": 310.4,
+    "peak_mem_mb": 1350.0,
+    "u_rel_l2_pct": 4.716,
+    "ke_rel_l2_pct": 0.089,
+    "enst_rel_l2_pct": 1.623,
+    "ke_final_err_pct": 0.106,
+    "enst_peak_err_pct": 2.369
+  },
+  {
+    "case": "Native Solver (64^3)",
+    "wall_time_s": 6.359,
+    "ms_per_snap": 63.59,
+    "speedup_vs_256_dns": 89.5,
+    "peak_mem_mb": 74.9,
+    "u_rel_l2_pct": 33.528,
+    "ke_rel_l2_pct": 1.013,
+    "enst_rel_l2_pct": 43.942,
+    "ke_final_err_pct": 4.734,
+    "enst_peak_err_pct": 45.384
+  }
+]

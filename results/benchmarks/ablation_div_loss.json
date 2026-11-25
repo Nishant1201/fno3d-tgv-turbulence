@@ -1,0 +1,20 @@
+[
+  {
+    "config": "MSE Only (lambda_div = 0)",
+    "u_rel_l2_pct": 4.716,
+    "ke_rel_l2_pct": 0.089,
+    "enst_rel_l2_pct": 1.623,
+    "enst_peak_err_pct": 2.369,
+    "mean_div_rms": 0.11882306332887595,
+    "final_div_rms": 0.31869566440582275
+  },
+  {
+    "config": "MSE + Div Loss (lambda_div = 1e-02)",
+    "u_rel_l2_pct": 3.685,
+    "ke_rel_l2_pct": 0.376,
+    "enst_rel_l2_pct": 1.494,
+    "enst_peak_err_pct": 1.738,
+    "mean_div_rms": 0.07501018102673603,
+    "final_div_rms": 0.19713371992111206
+  }
+]
